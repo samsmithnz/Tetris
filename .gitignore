@@ -396,3 +396,10 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Additions for .NET 8 and Winforms projects
+**/bin/Debug/net8.0-windows/
+**/bin/Release/net8.0-windows/
+**/obj/Debug/net8.0-windows/
+**/obj/Release/net8.0-windows/
+*.userprefs

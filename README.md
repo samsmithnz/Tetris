@@ -1,6 +1,6 @@
 # Tetris
 
-Welcome to Tetris! This classic game has been recreated in JavaScript for you to enjoy.
+Welcome to Tetris! This classic game has been recreated as a .NET 8, Winforms application for you to enjoy.
 
 ## How to Play
 
@@ -20,3 +20,14 @@ The game is simple to play but challenging to master. Shapes composed of four sq
 - As the game progresses, the shapes will fall faster, increasing the difficulty.
 
 Enjoy the game and try to beat your high score!
+
+## Running the Application
+
+To run the Tetris game as a .NET 8, Winforms application, you will need to have .NET 8 installed on your machine. After ensuring that .NET 8 is installed, you can clone the repository and navigate to the `TetrisWinForms` directory. From there, you can build and run the application using the .NET CLI commands:
+
+```bash
+dotnet build
+dotnet run
+```
+
+This will launch the Tetris game in a new window, where you can play the game using the controls listed above.
